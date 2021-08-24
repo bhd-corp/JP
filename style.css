@@ -1,0 +1,138 @@
+body {
+	background: #fff;
+}
+.d {
+	width: 160px;
+	margin: auto;
+	height: 900px;
+	background: #000;
+	position: fixed;top: 1050px;
+	left: 430px;
+	box-shadow: 5px 5px 240px #fff;
+}
+#sh {
+	width: 230px;
+	position: fixed;top: 1010px;
+	left: 400px;
+}
+#cube {
+	width: 300px;
+	position: fixed;top: 858px;
+	left: 364px;
+	/*animation: wer 0.8s linear;*/
+}
+@keyframes wer  {
+	0% {
+		top: 858px;
+	}
+	50% {
+		top: 300px;
+	}
+	100% {
+		top: 858px;
+	}
+}
+.lose {
+	width: 700px;
+	margin: auto;
+	height: 650px;
+	background: #000;
+	display: none;
+	position: relative;top: 400px;
+	border-radius: 40px;
+}
+.lose h1  {
+	text-align: center;
+	position: fixed;
+	color: #fff;
+	font-size: 100px;
+	top: 400px;left: 270px;
+}
+.lose i {
+	top: 680px;
+	color: #fff;
+	left: 420px;
+	font-size: 130px;
+}
+#dd {
+	display: none;
+}
+h3 {
+	color: #fff;
+	position: fixed;
+	font-size: 80px;
+	left: 375px;
+	top: 720px;
+	font-family: "Poppins";
+}
+.menu .d {
+	left: 420px;
+	top: 1100px;
+}
+.menu {
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+}
+.menu #cube {
+	left: 354px;
+	top: 910px;
+}
+.menu h1 {
+	font-size: 120px;
+	left: 220px;
+	top: 200px;
+	font-weight: 900;
+}
+.menu  h3{
+	color: #000;
+	left: 370px;
+	font-weight: 900;
+	font-size: 40px;
+	opacity: 0.9;
+	top: 700px;
+	animation: d 1s infinite linear;
+}
+@keyframes  d {
+	0% {
+		font-size: 40px;
+	}
+	50% {
+		font-size: 42px;
+		left: 365px;
+	}
+	100% {
+		font-size: 40px;
+	}
+}
+.menu i {
+	left: 890px;
+}
+#cog {
+	left: 15px;
+}
+#her {
+	font-weight: 900;
+	top: 200px;
+	font-size: 210px;
+	left: 220px;
+}
+h1 {
+	position: fixed;
+	font-family: "Poppins";
+	font-size: 70px;
+	top: -30px;
+	left: 20px;
+}
+i {
+	font-size: 90px;
+	position: fixed;left: 860px;
+	top: 20px;
+}
+h2 {
+	position: fixed;
+	font-family: "Poppins";
+	font-size: 70px;
+	top: 40px;
+	left: 20px;
+}
